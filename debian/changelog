@@ -1,0 +1,79 @@
+xivo-sounds (1:15.16-1) xivo-dev; urgency=low
+
+  * update package to avoid tracking binary files with git
+
+ -- Sebastien Duthil <sduthil@avencall.com>  Wed, 30 Sep 2015 14:10:47 -0400
+
+xivo-sounds (1:1.4.24-1) squeeze-xivo-skaro-dev; urgency=low
+
+  * add dutch sounds
+
+ -- Nicolas HICHER <nhicher@avencall.com>  Mon, 29 Jul 2013 13:46:14 -0400
+
+xivo-sounds (1:1.4.22-11) squeeze-xivo-skaro-dev; urgency=low
+
+  * #4424 fix forward-off.wav name
+
+ -- Nicolas HICHER <nhicher@avencall.com>  Fri, 31 May 2013 14:32:18 -0400
+
+xivo-sounds (1:1.4.22-9) squeeze-xivo-skaro; urgency=low
+
+  * rename forward-ma to forward-rna
+
+ -- Sebastien Duthil <sduthil@avencall.com>  Wed, 08 May 2013 13:34:33 -0400
+
+xivo-sounds (1:1.4.22-8) squeeze-xivo-skaro; urgency=low
+
+  * add agent-alreadylogged
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Tue, 05 Feb 2013 09:17:01 -0500
+
+xivo-sounds (1:1.4.22-7) squeeze-xivo-skaro; urgency=low
+
+  * add German sounds for asterisk
+  * update xivo sounds
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 12 Sep 2012 10:20:08 -0400
+
+xivo-sounds (1:1.4.22-6) squeeze-xivo-skaro; urgency=low
+
+  * rebuild
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Mon, 07 May 2012 13:22:56 -0400
+
+xivo-sounds (1:1.4.22-5) squeeze-xivo-skaro; urgency=low
+
+  * remove  conf-adminmenu.wav from asterisk en_us archive
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Tue, 17 Apr 2012 16:19:00 -0400
+
+xivo-sounds (1:1.4.22-3) squeeze-xivo-skaro; urgency=low
+
+  * add sounds to xivo-sounds-en-us
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Tue, 14 Feb 2012 11:12:57 -0500
+
+xivo-sounds (1:1.4.22-2) squeeze-xivo-skaro-dev; urgency=low
+
+  * fix debian control with provides, depends and replaces to allow upgrade
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 30 Nov 2011 18:37:03 -0500
+
+xivo-sounds (1:1.4.22-1) squeeze-xivo-skaro-dev; urgency=low
+
+  * rename package
+  * add en_US and de_DE for xivo
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Wed, 30 Nov 2011 13:30:45 -0500
+
+pf-xivo-sounds (1:1.4.20-1) lenny-xivo-skaro-dev; urgency=low
+
+  *
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Tue, 01 Feb 2011 14:50:44 +0100
+
+pf-xivo-sounds (1:1.4.20-0) lenny-xivo-skaro-dev; urgency=low
+
+  * Initial release.
+
+ -- Nicolas HICHER (atarakt) <nhicher@proformatique.com>  Mon, 31 Jan 2011 14:04:35 +0100

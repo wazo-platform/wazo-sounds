@@ -1,0 +1,109 @@
+Source: xivo-sounds
+Section: comm
+Priority: extra
+Maintainer: Proformatique Maintainance Team <technique@proformatique.com>
+Uploaders: Sylvain Boily <sboily@proformatique.com>, Nicolas HICHER (atarakt) <nhicher@proformatique.com>
+Build-Depends: cdbs (>= 0.4.23-1.1), debhelper (>= 5)
+Standards-Version: 3.7.2.2
+
+Package: xivo-sounds-fr-fr
+Architecture: all
+Depends: asterisk-sounds-wav-fr-fr
+Replaces: pf-asterisk-prompt-fr (<< 1.0~svn5794-1), pf-asterisk-prompt-fr-xivo, pf-asterisk-prompt-fr-fr-xivo
+Provides: pf-asterisk-prompt-fr-fr-xivo
+Conflicts: pf-asterisk-prompt-fr-fr-xivo
+Description: French french voice prompts for Asterisk
+ These are improved french voice prompts for the Asterisk PBX.
+ .
+ You need this package if you intend to run Asterisk and wish to support
+ french callers from France.
+
+Package: xivo-sounds-fr-ca
+Architecture: all
+Conflicts: pf-asterisk-prompt-fr-ca-xivo
+Replaces: pf-asterisk-prompt-fr-ca-xivo
+Provides: pf-asterisk-prompt-fr-ca-xivo
+Description: Canadian french voice prompts for Asterisk
+ These are improved french voice prompts for the Asterisk PBX.
+ .
+ You need this package if you intend to run Asterisk and wish to support
+ french callers from Canada.
+
+Package: xivo-sounds-en-us
+Architecture: all
+Description: English voice prompts for Asterisk
+ These are improved english voice prompts for the Asterisk PBX.
+ .
+ You need this package if you intend to run Asterisk and wish to support
+ english callers from US.
+
+Package: xivo-sounds-de-de
+Architecture: all
+Conflicts: pf-asterisk-prompt-de-de-xivo
+Replaces: pf-asterisk-prompt-de-de-xivo
+Provides: pf-asterisk-prompt-de-de-xivo
+Description: German voice prompts for Asterisk
+ These are improved german voice prompts for the Asterisk PBX.
+ .
+ You need this package if you intend to run Asterisk and wish to support
+ german callers.
+
+Package: xivo-sounds-nl-nl
+Architecture: all
+Description: Dutch voice prompts for Asterisk
+ These are improved dutch voice prompts for the Asterisk PBX.
+ .
+ You need this package if you intend to run Asterisk and wish to support
+ dutch callers.
+
+Package: asterisk-sounds-wav-de-de
+Architecture: all
+Enhances: asterisk
+Description: Asterisk sounds/voices for German
+ These are improved german voice prompts for the Asterisk PBX.
+ .
+ You need this package if you intend to run Asterisk and wish to support
+ german callers.
+
+Package: asterisk-sounds-wav-en-us
+Architecture: all
+Enhances: asterisk
+Description: Asterisk sounds/voices for US English
+ This package contains sounds/voices for en_US locale, officially
+ distributed by Digium (homepage: http://www.asterisk.org).
+
+Package: asterisk-sounds-wav-es-es
+Architecture: all
+Enhances: asterisk
+Description: Asterisk sounds/voices for Spain Spanish
+ This package contains sounds/voices for es_ES locale, officially
+ distributed by Digium (homepage: http://www.asterisk.org).
+
+Package: asterisk-sounds-wav-fr-fr
+Architecture: all
+Depends: asterisk
+Conflicts: asterisk-prompt-fr, pf-asterisk-prompt-fr
+Replaces: asterisk-prompt-fr, pf-asterisk-prompt-fr
+Provides: asterisk-prompt-fr, pf-asterisk-prompt-fr
+Description: french voice prompts for Asterisk
+ These are improved french voice prompts for the Asterisk PBX.
+ .
+ You need this package if you intend to run Asterisk and wish to support
+ french callers.
+
+Package: asterisk-sounds-wav-fr-ca
+Architecture: all
+Enhances: asterisk
+Description: Asterisk sounds/voices for Canadian French
+ This package contains sounds/voices for fr_CA locale, officially
+ distributed by Digium (homepage: http://www.asterisk.org).
+
+Package: asterisk-sounds-wav-nl-nl
+Architecture: all
+Enhances: asterisk
+Description: Asterisk sounds/voices for Dutch
+ These are improved dutch voice prompts for the Asterisk PBX.
+ .
+ You need this package if you intend to run Asterisk and wish to support
+ dutch callers.
+
