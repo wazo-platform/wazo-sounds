@@ -3,25 +3,25 @@ How to update sounds for xivo-sounds
 
 * There are two tarballs:
 
-asterisk.tar.bz2
-xivo.tar.bz2
+   * `asterisk.tar.bz2`
+   * `xivo.tar.bz2`
 
-* Run ./fetch_sounds.sh to get the two tarballs from mirror.xivo.io. They will be untarred in two directories:
+* Run `./fetch_sounds.sh` to get the two tarballs from mirror.xivo.io. They will be untarred in two directories:
 
-asterisk/
-xivo/
+   * `asterisk/`
+   * `xivo/`
 
 * Change the sound files you need.
-* Then run ./push_sounds.sh to make and upload two new tarballs with your modifications.
+* Then run `./push_sounds.sh` to make and upload two new tarballs with your modifications.
 * Bump the Debian changelog:
 
-   dch -i
+   `dch -i`
 
-* Finally make your commit including:
+* Finally make your commit (on master) including:
 
-   debian/changelog
-   asterisk.tar.bz2.sha256sum
-   xivo.tar.bz2.sha256sum
+   * `debian/changelog`
+   * `asterisk.tar.bz2.sha256sum`
+   * `xivo.tar.bz2.sha256sum`
 
 
 How to get new sounds from Asterisk upstream
