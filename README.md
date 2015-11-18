@@ -13,13 +13,8 @@ How to update sounds for xivo-sounds
 
 * Change the sound files you need.
 * Then run `./push_sounds.sh` to make and upload two new tarballs with your modifications.
-* Bump the Debian changelog:
-
-   `dch -i`
-
 * Finally make your commit (on master) including:
 
-   * `debian/changelog`
    * `asterisk.tar.bz2.sha256sum`
    * `xivo.tar.bz2.sha256sum`
 
