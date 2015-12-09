@@ -1,4 +1,4 @@
-xivo-sounds (1:15.16-1) xivo-dev; urgency=low
+xivo-sounds (1:15.16) xivo-dev; urgency=low
 
   * update package to avoid tracking binary files with git
 
