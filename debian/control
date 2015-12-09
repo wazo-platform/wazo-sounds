@@ -3,7 +3,7 @@ Section: comm
 Priority: extra
 Maintainer: Proformatique Maintainance Team <technique@proformatique.com>
 Uploaders: Sylvain Boily <sboily@proformatique.com>, Nicolas HICHER (atarakt) <nhicher@proformatique.com>
-Build-Depends: cdbs (>= 0.4.23-1.1), debhelper (>= 5)
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.2.2
 
 Package: xivo-sounds-fr-fr
