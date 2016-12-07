@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright (C) 2015 Avencall
+# Copyright 2015-2016 The Wazo Authors  (see the AUTHORS file)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@ set -e
 for category in asterisk xivo ; do
 	filename="${category}.tar.bz2"
 	filename_sum="${category}.tar.bz2.sha256sum"
-	url="http://mirror.xivo.io/iso/xivo-sounds/${filename}"
+	url="http://mirror.wazo.community/iso/xivo-sounds/${filename}"
 
 	rm -rf "${category}"
 	wget -nv -O "${filename}" "${url}"
