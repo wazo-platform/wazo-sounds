@@ -1,10 +1,9 @@
 Source: xivo-sounds
 Section: comm
 Priority: extra
-Maintainer: Proformatique Maintainance Team <technique@proformatique.com>
-Uploaders: Sylvain Boily <sboily@proformatique.com>, Nicolas HICHER (atarakt) <nhicher@proformatique.com>
+Maintainer: Wazo Maintainers <dev.wazo@gmail.com>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.7.2.2
+Standards-Version: 3.9.6
 
 Package: xivo-sounds-fr-fr
 Architecture: all

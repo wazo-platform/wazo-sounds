@@ -6,7 +6,7 @@ How to update sounds for xivo-sounds
    * `asterisk.tar.bz2`
    * `xivo.tar.bz2`
 
-* Run `./fetch_sounds.sh` to get the two tarballs from mirror.xivo.io. They will be untarred in two directories:
+* Run `./fetch_sounds.sh` to get the two tarballs from mirror.wazo.community. They will be untarred in two directories:
 
    * `asterisk/`
    * `xivo/`
