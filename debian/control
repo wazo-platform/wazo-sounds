@@ -80,7 +80,7 @@ Description: Asterisk sounds/voices for Spain Spanish
 
 Package: asterisk-sounds-wav-fr-fr
 Architecture: all
-Depends: asterisk
+Enhances: asterisk
 Conflicts: asterisk-prompt-fr, pf-asterisk-prompt-fr
 Replaces: asterisk-prompt-fr, pf-asterisk-prompt-fr
 Provides: asterisk-prompt-fr, pf-asterisk-prompt-fr
