@@ -19,7 +19,7 @@ set -e
 for category in asterisk xivo ; do
 	filename="${category}.tar.bz2"
 	filename_sum="${category}.tar.bz2.sha256sum"
-	url="http://mirror.wazo.community/iso/xivo-sounds/${filename}"
+	url="https://mirror.wazo.community/sounds/${filename}"
 
 	rm -rf "${category}"
 	wget -nv -O "${filename}" "${url}"
