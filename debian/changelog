@@ -1,3 +1,9 @@
+wazo-sounds (1:15.17) wazo-dev-buster; urgency=medium
+
+  * Package rename
+
+ -- Sebastien Duthil <sduthil@avencall.com>  Wed, 25 Sep 2019 15:09:44 +0200
+
 xivo-sounds (1:15.16) xivo-dev; urgency=low
 
   * update package to avoid tracking binary files with git

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright 2015-2016 The Wazo Authors  (see the AUTHORS file)
+# Copyright 2015-2019 The Wazo Authors  (see the AUTHORS file)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
 
 set -e
 
-for category in asterisk xivo ; do
+for category in asterisk wazo ; do
 	filename="${category}.tar.bz2"
 	filename_sum="${category}.tar.bz2.sha256sum"
 	url="https://mirror.wazo.community/sounds/${filename}"

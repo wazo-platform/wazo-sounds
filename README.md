@@ -1,22 +1,22 @@
-How to update sounds for xivo-sounds
+How to update sounds for wazo-sounds
 ====================================
 
 * There are two tarballs:
 
    * `asterisk.tar.bz2`
-   * `xivo.tar.bz2`
+   * `wazo.tar.bz2`
 
 * Run `./fetch_sounds.sh` to get the two tarballs from mirror.wazo.community. They will be untarred in two directories:
 
    * `asterisk/`
-   * `xivo/`
+   * `wazo/`
 
 * Change the sound files you need.
 * Then run `./push_sounds.sh` to make and upload two new tarballs with your modifications.
 * Finally make your commit (on master) including:
 
    * `asterisk.tar.bz2.sha256sum`
-   * `xivo.tar.bz2.sha256sum`
+   * `wazo.tar.bz2.sha256sum`
 
 
 How to get new sounds from Asterisk upstream
