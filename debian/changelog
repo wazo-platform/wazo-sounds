@@ -1,3 +1,9 @@
+wazo-sounds (1:19.04) wazo-dev-buster; urgency=medium
+
+  * Package rename
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 01 Oct 2019 16:18:49 +0200
+
 xivo-sounds (1:15.16) xivo-dev; urgency=low
 
   * update package to avoid tracking binary files with git

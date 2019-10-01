@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright (C) 2015 Avencall
+# Copyright 2015-2019 The Wazo Authors  (see the AUTHORS file)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-# This script is used to keep up to date xivo-sounds directories, used only for
+# This script is used to keep up to date wazo-sounds directories, used only for
 # digium
 #   * get source tarballs
 #   * extract tarballs, correct rights is needed
@@ -34,7 +34,7 @@ prepare_temp_dir () {
     echo "Prepare build directory $tmp_dir"
     clean_tmp_dir
     mkdir -p $tmp_dir/tarballs
-    rsync -av asterisk xivo $tmp_dir/ --exclude=xivo/wav/xivo-son.ods > /dev/null 2>&1
+    rsync -av asterisk wazo $tmp_dir/ --exclude=wazo/wav/wazo-son.ods > /dev/null 2>&1
 }
 
 get_tarball () {
@@ -63,14 +63,14 @@ extract_digium_data () {
 
     echo "extract $tarball on $tarball_path"
     tar xvzf $tarball -C $tarball_path
-    # overriden by pf-asterisk-prompts-xivo
+    # overriden by pf-asterisk-prompts-wazo
     if [ $language = "fr" ] || [ $language = "en" ]; then
         find $tarball_path -name "conf-adminmenu.wav" -delete
     fi
     echo "asterisk/wav/$dest_dir is up-to-date"
 }
 
-xivo_sounds_version=${ast_version}
+wazo_sounds_version=${ast_version}
 
 tmp_dir='tmp'
 
