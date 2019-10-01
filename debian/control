@@ -1,16 +1,16 @@
 Source: wazo-sounds
 Section: comm
 Priority: extra
-Maintainer: Wazo Maintainers <dev.wazo@gmail.com>
+Maintainer: Wazo Maintainers <dev@wazo.community>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 
 Package: wazo-sounds-fr-fr
 Architecture: all
 Depends: asterisk-sounds-wav-fr-fr
-Replaces: pf-asterisk-prompt-fr (<< 1.0~svn5794-1), pf-asterisk-prompt-fr-wazo, pf-asterisk-prompt-fr-fr-wazo
-Provides: pf-asterisk-prompt-fr-fr-wazo
-Conflicts: pf-asterisk-prompt-fr-fr-wazo
+Replaces: xivo-sounds-fr-fr
+Provides: xivo-sounds-fr-fr
+Conflicts: xivo-sounds-fr-fr
 Description: French french voice prompts for Asterisk
  These are improved french voice prompts for the Asterisk PBX.
  .
@@ -19,9 +19,9 @@ Description: French french voice prompts for Asterisk
 
 Package: wazo-sounds-fr-ca
 Architecture: all
-Conflicts: pf-asterisk-prompt-fr-ca-wazo
-Replaces: pf-asterisk-prompt-fr-ca-wazo
-Provides: pf-asterisk-prompt-fr-ca-wazo
+Conflicts: xivo-sounds-fr-ca
+Replaces: xivo-sounds-fr-ca
+Provides: xivo-sounds-fr-ca
 Description: Canadian french voice prompts for Asterisk
  These are improved french voice prompts for the Asterisk PBX.
  .
@@ -38,9 +38,9 @@ Description: English voice prompts for Asterisk
 
 Package: wazo-sounds-de-de
 Architecture: all
-Conflicts: pf-asterisk-prompt-de-de-wazo
-Replaces: pf-asterisk-prompt-de-de-wazo
-Provides: pf-asterisk-prompt-de-de-wazo
+Conflicts: xivo-sounds-de-de
+Replaces: xivo-sounds-de-de
+Provides: xivo-sounds-de-de
 Description: German voice prompts for Asterisk
  These are improved german voice prompts for the Asterisk PBX.
  .
