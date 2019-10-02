@@ -33,7 +33,6 @@ Architecture: all
 Conflicts: xivo-sounds-en-us
 Replaces: xivo-sounds-en-us
 Provides: xivo-sounds-en-us
-Architecture: all
 Description: English voice prompts for Asterisk
  These are improved english voice prompts for the Asterisk PBX.
  .
@@ -56,7 +55,6 @@ Architecture: all
 Conflicts: xivo-sounds-nl-nl
 Replaces: xivo-sounds-nl-nl
 Provides: xivo-sounds-nl-nl
-Architecture: all
 Description: Dutch voice prompts for Asterisk
  These are improved dutch voice prompts for the Asterisk PBX.
  .
