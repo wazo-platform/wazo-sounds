@@ -27,3 +27,4 @@ How to get new sounds from Asterisk upstream
 * Run ./fetch_asterisk_upstream.sh
 * Then continue the steps of the previous section
 * Don't forget to git your changes to asterisk_upstream.conf
+
