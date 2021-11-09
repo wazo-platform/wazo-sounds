@@ -5,6 +5,13 @@ Maintainer: Wazo Maintainers <dev@wazo.community>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 
+Package: wazo-sounds-main
+Architecture: all
+Depends: asterisk-sounds-main
+Description: Additional sound files for Asterisk
+ These are additional sound files for the Asterisk PBX, that are indepedent of
+ language.
+
 Package: wazo-sounds-fr-fr
 Architecture: all
 Depends: asterisk-sounds-wav-fr-fr
