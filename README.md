@@ -13,7 +13,7 @@ How to update sounds for wazo-sounds
 
 * Change the sound files you need.
 * Then run `./push_sounds.sh` to make and upload two new tarballs with your modifications.
-* Finally make your commit (on master) including:
+* Finally, make your commit (on master) including:
 
    * `asterisk.tar.bz2.sha256sum`
    * `wazo.tar.bz2.sha256sum`
