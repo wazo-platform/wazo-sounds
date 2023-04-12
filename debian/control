@@ -2,15 +2,14 @@ Source: wazo-sounds
 Section: comm
 Priority: extra
 Maintainer: Wazo Maintainers <dev@wazo.community>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 12)
 Standards-Version: 3.9.6
 
 Package: wazo-sounds-main
 Architecture: all
 Depends: asterisk-sounds-main
 Description: Additional sound files for Asterisk
- These are additional sound files for the Asterisk PBX, that are indepedent of
- language.
+ These are additional sound files for the Asterisk PBX, that are language agnostic.
 
 Package: wazo-sounds-fr-fr
 Architecture: all
@@ -18,22 +17,22 @@ Depends: asterisk-sounds-wav-fr-fr
 Replaces: xivo-sounds-fr-fr
 Provides: xivo-sounds-fr-fr
 Conflicts: xivo-sounds-fr-fr
-Description: French french voice prompts for Asterisk
- These are improved french voice prompts for the Asterisk PBX.
+Description: France French voice prompts for Asterisk
+ These are improved French voice prompts for the Asterisk PBX.
  .
  You need this package if you intend to run Asterisk and wish to support
- french callers from France.
+ French callers from France.
 
 Package: wazo-sounds-fr-ca
 Architecture: all
 Conflicts: xivo-sounds-fr-ca
 Replaces: xivo-sounds-fr-ca
 Provides: xivo-sounds-fr-ca
-Description: Canadian french voice prompts for Asterisk
- These are improved french voice prompts for the Asterisk PBX.
+Description: Canadian French voice prompts for Asterisk
+ These are improved French voice prompts for the Asterisk PBX.
  .
  You need this package if you intend to run Asterisk and wish to support
- french callers from Canada.
+ French callers from Canada.
 
 Package: wazo-sounds-en-us
 Architecture: all
@@ -41,10 +40,10 @@ Conflicts: xivo-sounds-en-us
 Replaces: xivo-sounds-en-us
 Provides: xivo-sounds-en-us
 Description: English voice prompts for Asterisk
- These are improved english voice prompts for the Asterisk PBX.
+ These are improved English voice prompts for the Asterisk PBX.
  .
  You need this package if you intend to run Asterisk and wish to support
- english callers from US.
+ English callers from the US.
 
 Package: wazo-sounds-de-de
 Architecture: all
@@ -52,10 +51,10 @@ Conflicts: xivo-sounds-de-de
 Replaces: xivo-sounds-de-de
 Provides: xivo-sounds-de-de
 Description: German voice prompts for Asterisk
- These are improved german voice prompts for the Asterisk PBX.
+ These are improved German voice prompts for the Asterisk PBX.
  .
  You need this package if you intend to run Asterisk and wish to support
- german callers.
+ German callers.
 
 Package: wazo-sounds-nl-nl
 Architecture: all
@@ -63,19 +62,19 @@ Conflicts: xivo-sounds-nl-nl
 Replaces: xivo-sounds-nl-nl
 Provides: xivo-sounds-nl-nl
 Description: Dutch voice prompts for Asterisk
- These are improved dutch voice prompts for the Asterisk PBX.
+ These are improved Dutch voice prompts for the Asterisk PBX.
  .
  You need this package if you intend to run Asterisk and wish to support
- dutch callers.
+ Dutch callers.
 
 Package: asterisk-sounds-wav-de-de
 Architecture: all
 Enhances: asterisk
 Description: Asterisk sounds/voices for German
- These are improved german voice prompts for the Asterisk PBX.
+ These are improved German voice prompts for the Asterisk PBX.
  .
  You need this package if you intend to run Asterisk and wish to support
- german callers.
+ German callers.
 
 Package: asterisk-sounds-wav-en-us
 Architecture: all
@@ -97,11 +96,11 @@ Enhances: asterisk
 Conflicts: asterisk-prompt-fr, pf-asterisk-prompt-fr
 Replaces: asterisk-prompt-fr, pf-asterisk-prompt-fr
 Provides: asterisk-prompt-fr, pf-asterisk-prompt-fr
-Description: french voice prompts for Asterisk
- These are improved french voice prompts for the Asterisk PBX.
+Description: French voice prompts for Asterisk
+ These are improved French voice prompts for the Asterisk PBX.
  .
  You need this package if you intend to run Asterisk and wish to support
- french callers.
+ French callers.
 
 Package: asterisk-sounds-wav-fr-ca
 Architecture: all
@@ -114,8 +113,8 @@ Package: asterisk-sounds-wav-nl-nl
 Architecture: all
 Enhances: asterisk
 Description: Asterisk sounds/voices for Dutch
- These are improved dutch voice prompts for the Asterisk PBX.
+ These are improved Dutch voice prompts for the Asterisk PBX.
  .
  You need this package if you intend to run Asterisk and wish to support
- dutch callers.
+ Dutch callers.
 
