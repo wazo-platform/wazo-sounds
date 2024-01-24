@@ -14,9 +14,6 @@ Description: Additional sound files for Asterisk
 Package: wazo-sounds-fr-fr
 Architecture: all
 Depends: asterisk-sounds-wav-fr-fr
-Replaces: xivo-sounds-fr-fr
-Provides: xivo-sounds-fr-fr
-Conflicts: xivo-sounds-fr-fr
 Description: France French voice prompts for Asterisk
  These are improved French voice prompts for the Asterisk PBX.
  .
@@ -25,9 +22,6 @@ Description: France French voice prompts for Asterisk
 
 Package: wazo-sounds-fr-ca
 Architecture: all
-Conflicts: xivo-sounds-fr-ca
-Replaces: xivo-sounds-fr-ca
-Provides: xivo-sounds-fr-ca
 Description: Canadian French voice prompts for Asterisk
  These are improved French voice prompts for the Asterisk PBX.
  .
@@ -36,9 +30,6 @@ Description: Canadian French voice prompts for Asterisk
 
 Package: wazo-sounds-en-us
 Architecture: all
-Conflicts: xivo-sounds-en-us
-Replaces: xivo-sounds-en-us
-Provides: xivo-sounds-en-us
 Description: English voice prompts for Asterisk
  These are improved English voice prompts for the Asterisk PBX.
  .
@@ -47,9 +38,6 @@ Description: English voice prompts for Asterisk
 
 Package: wazo-sounds-de-de
 Architecture: all
-Conflicts: xivo-sounds-de-de
-Replaces: xivo-sounds-de-de
-Provides: xivo-sounds-de-de
 Description: German voice prompts for Asterisk
  These are improved German voice prompts for the Asterisk PBX.
  .
@@ -58,9 +46,6 @@ Description: German voice prompts for Asterisk
 
 Package: wazo-sounds-nl-nl
 Architecture: all
-Conflicts: xivo-sounds-nl-nl
-Replaces: xivo-sounds-nl-nl
-Provides: xivo-sounds-nl-nl
 Description: Dutch voice prompts for Asterisk
  These are improved Dutch voice prompts for the Asterisk PBX.
  .
