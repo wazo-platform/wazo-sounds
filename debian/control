@@ -78,9 +78,9 @@ Description: Asterisk sounds/voices for Spain Spanish
 Package: asterisk-sounds-wav-fr-fr
 Architecture: all
 Enhances: asterisk
-Conflicts: asterisk-prompt-fr, pf-asterisk-prompt-fr
-Replaces: asterisk-prompt-fr, pf-asterisk-prompt-fr
-Provides: asterisk-prompt-fr, pf-asterisk-prompt-fr
+Conflicts: asterisk-core-sounds-fr, asterisk-prompt-fr-proformatique
+Replaces: asterisk-core-sounds-fr, asterisk-prompt-fr-proformatique
+Provides: asterisk-core-sounds-fr, asterisk-prompt-fr-proformatique
 Description: French voice prompts for Asterisk
  These are improved French voice prompts for the Asterisk PBX.
  .
