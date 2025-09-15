@@ -9,7 +9,8 @@ Package: wazo-sounds-main
 Architecture: all
 Depends: asterisk-sounds-main
 Description: Additional sound files for Asterisk
- These are additional sound files for the Asterisk PBX, that are language agnostic.
+ These are additional sound files for the Asterisk PBX, that are language
+ agnostic.
 
 Package: wazo-sounds-fr-fr
 Architecture: all
